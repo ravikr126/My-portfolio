@@ -1,20 +1,35 @@
 body {
     margin: 0 0 0 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    background-image: url("C:\Users\ASUS\Desktop\git\CV\images\computer.png");
+    
+    
   }
   
   h1 {
     color: #66BFBF;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  a{
+    color: #ff0000;
+    
+    margin: 10px 20px;
+  }
+  
+  a:hover {
+    color: #fa0707;
+  }
+  
+  .topsec{
+   
   }
   
   h2 {
     color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
@@ -22,13 +37,20 @@ body {
   
   h3 {
     color: #11999E;
-    font-family: 'Montserrat', sans-serif;
+    
   }
   
   p {
-    line-height: 2;
+    line-height: 2rem;
+    font-family: 'Pacifico', cursive;
+    height: 40px;
+    padding-top: 10px;
+    size:100px;
+   
   }
   
+  
+
   hr {
     border: dotted #EAF6F6 6px;
     border-bottom: none;
@@ -42,31 +64,17 @@ body {
      margin-right: auto;
      line-height: 2rem;
   }
-
-  a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #fa0707;
-  }
-  
-  .topsec{
-    font-family: 'Merriweather', serif;
-  }
   .top-container {
    position: relative;
     padding-top: 100px;
+    background-image: url(images\pro.jpg);
   }
   
   .middle-container {
     margin: 100px 100px 100px 100px;
     position :relative;
     text-align: center;
-    
+   
   }
 
   .bottom-container {
