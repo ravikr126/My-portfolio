@@ -40,6 +40,7 @@ body {
   .t-center{
      margin-left: auto;
      margin-right: auto;
+     line-height: 2rem;
   }
 
   a{
@@ -53,6 +54,9 @@ body {
     color: #fa0707;
   }
   
+  .topsec{
+    font-family: 'Merriweather', serif;
+  }
   .top-container {
    position: relative;
     padding-top: 100px;
@@ -64,12 +68,14 @@ body {
     text-align: center;
     
   }
-  .t-img{
-    background-image: url("C:\Users\ASUS\Desktop\git\CV\images\pro.jpg");
-  }
+
   .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
+  }
+  
+  img{
+    border-radius: 100%;
   }
   
   .skill-row {
@@ -90,12 +96,6 @@ body {
   .contact-message {
     width: 40%;
     margin: 40px auto 60px;
-  }
-  
-  .copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
   }
   
   .code-img {
@@ -131,4 +131,12 @@ body {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+  
+  .copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  
   
