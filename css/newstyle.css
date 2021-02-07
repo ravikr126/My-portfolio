@@ -48,8 +48,7 @@ font-family: 'Libre Baskerville', serif;
     size:100px;
    
   }
-  
-  
+
 
   hr {
     border: dotted #EAF6F6 6px;
@@ -65,9 +64,8 @@ font-family: 'Libre Baskerville', serif;
      line-height: 2rem;
   }
   .top-container {
-   position: relative;
-    padding-top: 100px;
-    background-image: url(images\pro.jpg);
+   /*position: relative;
+   */
   }
   
   .middle-container {
